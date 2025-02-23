@@ -210,10 +210,18 @@ body {
     transition-duration: 0.4s;
     cursor: pointer;
   }
+
+.product-button.disabled {
+    background-color: #D3D3D3; /* Grey */
+    cursor: not-allowed;
+}
   
   .product-button:hover {
     background-color: #45a049;
   }
+  .product-button.disabled:hover {
+    background-color: #D3D3D3; /* Grey */
+}
   
   .product-button.added-to-cart {
     background-color: grey; /* Grey when product is added */
